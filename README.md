@@ -10,3 +10,5 @@ This is a fork of the `Unmarshal` functionality of `jsonpb` with fixes for error
  * Errors are are now prefixed with a "stack" path of fields that are returned in
  * Poor "cannot deserialize into `json.RawMessage" errors now use proper types
  * Unknown fields now return a helpful message listing known fields :)
+ 
+ Relevant upstream Issue: https://github.com/golang/protobuf/issues/266
